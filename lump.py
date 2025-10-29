@@ -2,6 +2,9 @@ import pandas as pd
 import streamlit as st
 import plotly.graph_objects as go
 
+
+##
+
 # Step 1: Simulate the ending values for a one-time lump sum investment
 def simulate_lump_sum_ending_value(df_column, initial_investment, num_years, row_increment):
     results = []
